@@ -45,26 +45,30 @@
     </nav>
 
     <div id="home" class="max-w-5xl mx-auto px-6 pt-32 py-12">
-       <header class="mb-24 flex flex-col md:flex-row items-center gap-12">
+       <header id="home" class="pt-32 mb-24 flex flex-col md:flex-row items-center gap-12">
     
-    <div class="flex-1 order-2 md:order-1">
-        <span class="text-steelblue font-semibold text-sm tracking-widest uppercase mb-4 block">QA Engineer</span>
+    <div class="flex-1 order-2 md:order-1 text-center md:text-left">
+        <span class="text-steelblue font-semibold text-sm tracking-widest uppercase mb-4 block">QA Engineer & Tester</span>
         <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-6">Hafiz Muhammad.</h1>
-        <p class="text-gray-400 text-lg mb-10 leading-relaxed">
+        <p class="text-gray-400 text-lg mb-10 leading-relaxed max-w-xl">
             Focused on delivering quality software through manual inspection and version control. Currently building my expertise in the QA ecosystem.
         </p>
-        <a href="Hafiz_Muhammad_QA_Engineer.pdf" target="_blank" class="bg-steelblue text-white px-8 py-4 rounded-xl font-bold hover:shadow-[0_0_20px_rgba(74,144,226,0.4)] transition-all inline-block">
-            Download Resume
-        </a>
+        <div class="flex flex-wrap justify-center md:justify-start gap-4">
+            <a href="Hafiz_Muhammad_QA_Engineer.pdf" target="_blank" class="bg-steelblue text-white px-8 py-4 rounded-xl font-bold hover:shadow-[0_0_20px_rgba(74,144,226,0.4)] transition-all">
+                Download Resume
+            </a>
+        </div>
     </div>
 
     <div class="order-1 md:order-2">
         <div class="relative group">
-            <div class="absolute -inset-1 bg-steelblue rounded-3xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+            <div class="absolute -inset-1 bg-steelblue rounded-3xl blur opacity-20 group-hover:opacity-40 transition duration-1000"></div>
             
-            <img src="hafiz-profile.jpg" 
-                 alt="Hafiz Muhammad" 
-                 class="relative w-48 h-48 md:w-64 md:h-64 rounded-3xl object-cover border border-white/10 shadow-2xl">
+            <div class="relative w-48 h-48 md:w-72 md:h-72 bg-glass rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
+                <img src="hafiz-profile.jpg" 
+                     alt="Hafiz Muhammad" 
+                     class="w-full h-full object-cover">
+            </div>
         </div>
     </div>
 </header>
