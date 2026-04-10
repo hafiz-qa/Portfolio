@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hafiz Muhammad | QA Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        darkbg: '#080808',
+                        steelblue: '#4A90E2',
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #080808; color: white; scroll-behavior: smooth; }
+        .glass { background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); }
+        .stat-card:hover { border-color: #4A90E2; transform: translateY(-4px); transition: all 0.3s ease; }
+    </style>
+</head>
+<body class="antialiased">
+
+    <div class="max-w-5xl mx-auto px-6 py-12">
+        <nav class="flex justify-between items-center mb-16">
+            <div class="text-xl font-extrabold tracking-tighter">HM<span class="text-steelblue">.QA</span></div>
+            <a href="mailto:hafizmuhammed043@gmail.com" class="glass px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-steelblue hover:text-white transition-all">Contact Me</a>
+        </nav>
+
+        <header class="mb-20">
+            <div class="w-16 h-16 rounded-2xl bg-steelblue/10 border border-steelblue/30 flex items-center justify-center mb-8">
+                <svg class="w-8 h-8 text-steelblue" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04a11.357 11.357 0 00-1.573 7.823c.522 3.303 2.18 6.312 4.688 8.547a11.677 11.677 0 0010.993 0c2.508-2.235 4.166-5.304 4.688-8.547a11.357 11.357 0 00-1.573-7.823z"></path>
+                </svg>
+            </div>
+
+            <span class="text-steelblue font-semibold text-sm tracking-widest uppercase mb-4 block">QA Engineer & Automation Specialist</span>
+            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 leading-tight">Hafiz Muhammad.</h1>
+            <p class="text-gray-400 text-lg max-w-xl mb-10 leading-relaxed">
+                Specializing in building robust automation frameworks and ensuring software reliability through meticulous testing and precision engineering.
+            </p>
+            
+            <a href="Hafiz_Muhammad_QA_Engineer.pdf" download="Hafiz_Muhammad_QA_Resume" class="inline-flex items-center bg-steelblue text-white px-8 py-4 rounded-xl font-bold hover:shadow-[0_0_20px_rgba(74,144,226,0.4)] transition-all">
+                Download Resume
+            </a>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-24">
+            <div class="glass stat-card p-10 rounded-3xl text-center">
+                <div class="text-5xl font-extrabold text-steelblue mb-2">40%</div>
+                <div class="text-gray-500 text-xs font-bold uppercase tracking-widest">Manual Effort Reduction</div>
+            </div>
+            <div class="glass stat-card p-10 rounded-3xl text-center">
+                <div class="text-5xl font-extrabold text-steelblue mb-2">80+</div>
+                <div class="text-gray-500 text-xs font-bold uppercase tracking-widest">Detailed Test Cases</div>
+            </div>
+            <div class="glass stat-card p-10 rounded-3xl text-center">
+                <div class="text-5xl font-extrabold text-steelblue mb-2">POM</div>
+                <div class="text-gray-500 text-xs font-bold uppercase tracking-widest">Scalable Architecture</div>
+            </div>
+        </div>
+
+        <section class="mb-24">
+            <h2 class="text-2xl font-bold mb-10 flex items-center">
+                <span class="w-8 h-px bg-steelblue mr-4"></span> Core Expertise
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="glass p-8 rounded-2xl">
+                    <h3 class="font-bold text-lg mb-2">Automation Engineering</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Designing reusable Selenium test suites using Java and TestNG to optimize delivery pipelines.</p>
+                </div>
+                <div class="glass p-8 rounded-2xl">
+                    <h3 class="font-bold text-lg mb-2">Manual Testing Strategy</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Executing comprehensive functional, integration, and regression tests for high-impact applications.</p>
+                </div>
+                <div class="glass p-8 rounded-2xl">
+                    <h3 class="font-bold text-lg mb-2">API Quality Assurance</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Validating backend services and ensuring data integrity through rigorous Postman testing.</p>
+                </div>
+                <div class="glass p-8 rounded-2xl">
+                    <h3 class="font-bold text-lg mb-2">Defect Management</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Expertly tracking bug lifecycles and facilitating Agile workflows within JIRA environments.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer id="contact" class="border-t border-white/10 pt-16 pb-20 flex flex-col md:flex-row justify-between items-start gap-12">
+            <div class="max-w-sm">
+                <h4 class="text-white text-xl font-bold mb-4">Education</h4>
+                <p class="text-gray-300 text-lg">Diploma in Computer Science</p>
+                <p class="text-steelblue font-medium">Class of 2024</p>
+                <p class="text-gray-500 mt-2">Ernakulam, Kerala</p>
+            </div>
+            <div class="md:text-right">
+                <h4 class="text-white text-xl font-bold mb-4">Direct Contact</h4>
+                <a href="mailto:hafizmuhammed043@gmail.com" class="block text-steelblue text-xl font-semibold hover:underline mb-2">hafizmuhammed043@gmail.com</a>
+                <p class="text-gray-300 text-lg font-medium">+91 9995693724</p>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
